@@ -1,0 +1,29 @@
+refresh_token:
+  name: Refresh Token
+  description: Refresh the GigaChat API access token.
+  fields:
+    force:
+      name: Force Refresh
+      description: Force token refresh even if current token is still valid
+      required: false
+      default: false
+      selector:
+        boolean:
+
+send_message:
+  name: Send Message
+  description: Send a message to a specific chat using the GigaChat Bot.
+  fields:
+    chat_id:
+      name: Chat ID
+      description: The ID of the chat to send the message to
+      required: true
+      selector:
+        number:
+    message:
+      name: Message
+      description: The message to send
+      required: true
+      selector:
+        text:
+          multiline: true
