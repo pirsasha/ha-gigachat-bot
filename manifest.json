@@ -3,7 +3,6 @@
   "domain": "gigachat_bot",
   "name": "GigaChat Bot",
   "documentation": "https://github.com/pirsasha/ha-gigachat-bot",
-  "issue_tracker": "https://github.com/pirsasha/ha-gigachat-bot/issues",
   "dependencies": ["http"],
   "codeowners": ["@pirsasha"],
   "requirements": [
