@@ -1,10 +1,11 @@
+
 {
   "domain": "gigachat_bot",
   "name": "GigaChat Bot",
   "documentation": "https://github.com/pirsasha/ha-gigachat-bot",
   "issue_tracker": "https://github.com/pirsasha/ha-gigachat-bot/issues",
   "dependencies": ["http"],
-  "codeowners": [],
+  "codeowners": ["@pirsasha"],
   "requirements": [
     "python-telegram-bot==20.6",
     "aiohttp>=3.8.0",
@@ -14,7 +15,5 @@
     "voluptuous>=0.13.1"
   ],
   "version": "1.0.0",
-  "iot_class": "cloud_polling",
-  "hacs": "1.6.0",
-  "homeassistant": "2023.1.0"
+  "iot_class": "cloud_polling"
 }

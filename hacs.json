@@ -1,10 +1,8 @@
+
 {
   "name": "GigaChat Bot",
   "render_readme": true,
-  "country": "RU",
   "domains": ["gigachat_bot"],
   "homeassistant": "2023.1.0",
-  "iot_class": "cloud_polling",
-  "zip_release": false,
-  "filename": "gigachat_bot.zip"
+  "iot_class": "cloud_polling"
 }
